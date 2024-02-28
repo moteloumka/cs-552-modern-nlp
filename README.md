@@ -31,9 +31,9 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 
 | Week        | Date                 |  Topic                                                                                                                      |  Instructor                                |
 |:------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------|:------------------------------------------:|
-| **Week 1**  | 21 Feb <br />22 Feb  |  Introduction &#124; Building a simple neural classifier  <br />Neural LMs: word embeddings [[slides][1s]]  |  Antoine Bosselut                   	    |
+| **Week 1**  | 21 Feb <br />22 Feb  |  Introduction &#124; Building a simple neural classifier [[slides][1s]]  <br />Neural LMs: word embeddings [[slides][1s]]  |  Antoine Bosselut                   	    |
 |             |                      |                                                                                                                             |                                      	    |
-| **Week 2**  |  28 Feb <br />29 Feb   |  LM basics &#124; Neural LMs: Fixed Context Models <br />Neural LMs: RNNs, Backpropagation, Vanishing Gradients; LSTMs     |  Antoine Bosselut                   		|
+| **Week 2**  |  28 Feb <br />29 Feb   |  LM basics &#124; Neural LMs: Fixed Context Models [[slides][2s]]<br />Neural LMs: RNNs, Backpropagation, Vanishing Gradients; LSTMs     |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 3**  |  6 Mar <br />7 Mar   |  Seq2seq + decoding + attention &#124; Transformers<br />Transformers + Greedy Decoding; GPT |  Antoine Bosselut  		|
 |             |                      |                                                                                                                             |                                      	    |
@@ -47,9 +47,9 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 7**  |  10 Apr  <br />11 Apr  |  In-context Learning - GPT-3 + Prompts &#124; Instruction Tuning<br />Project Description    |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
-| **Week 8**  | 17 Apr <br />18 Apr  |  Ethics in NLP: Bias / Fairness and Toxicity, Privacy, Disinformation <br />**No class** (Project work; A1 Grade Review Session)    |  Anna Sotnikova                   		|
+| **Week 8**  | 17 Apr <br />18 Apr  |  Scaling laws &#124; Model Compression <br />**No class** (Project work; A1 Grade Review Session)    |  Antoine Bosselut <br /> 		|
 |             |                      |                                                                                                                             |                                      	    |
-| **Week 9** | 24 Apr <br />25 Apr  |  Scaling laws &#124; Model Compression <br />**No class** (Project work; A1 Grade Review Session)    |  Antoine Bosselut <br /> 		|
+| **Week 9** | 24 Apr <br />25 Apr  |  Ethics in NLP: Bias / Fairness and Toxicity, Privacy, Disinformation <br />**No class** (Project work; A1 Grade Review Session)    |  Anna Sotnikova                   		|
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 10** |  1 May <br />2 May   |  Tokenization: BPE, WP, Char-based &#124; Multilingual LMs <br />Guest Lecture: Kayo Yin  |  Negar Foroutan <br /> Kayo Yin                 		|
 |             |                      |                                                                                                                             |                                      	    |
@@ -69,33 +69,41 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 |:------------|:--------|:--------------------------------------------------------------------------------------|:-------------------------------------------------------------------:|
 | **Week 1**  | 22 Feb  |  Setup + Word embeddings  [[code][1e]]                                                |  Mete Ismayilzada            |
 |             |         |                                                                                       |                                                                     |
-| **Week 2**  |  29 Feb  |  Word embeddings review <br /> Language and Sequence-to-sequence models  |  Mete Ismayilzada <br />Badr AlKhamissi  |
+| **Week 2**  |  29 Feb  |  Word embeddings review <br /> Language and Sequence-to-sequence models [[code][2e]] |  Mete Ismayilzada <br />Badr AlKhamissi  |
 |             |         |                                                                                       |                                                                     |
-| **Week 3**  |  7 Mar  | Language and Sequence-to-sequence models review <br /> Attention + Transformers <br /> Assignment 1 Q&A    |  Badr AlKhamissi <br />Simin Fan         |
+| **Week 3**  |  6 Mar  | Assignment 1 Q&A    | Mete Ismayilzada         |
+| **Week 3**  |  7 Mar  | Language and Sequence-to-sequence models review <br /> Attention + Transformers <br /> Assignment 1 Q&A    |  Badr AlKhamissi    |
 |             |         |                                                                                       |                                                                     |
-| **Week 4**  | 14 Mar  |  Attention + Transformers review <br />Pretraining and Transfer Learning Pt. 1 <br /> Assignment 1 Q&A  |  Simin Fan <br /> Badr AlKhamissi     |
+| **Week 4**  | 13 Mar  |  Assignment 1 Q&A   | Simin Fan     |
+| **Week 4**  | 14 Mar  |  Attention + Transformers review <br />Pretraining and Transfer Learning Pt. 1  |  Badr AlKhamissi  <br /> Simin Fan    |
 |             |         |                                                                                       |                                                                     |
-| **Week 5**  | 21 Mar  |  Pretraining and Transfer Learning Pt. 1 review <br />Transfer Learning Pt. 2 <br /> Assignment 2 Q&A        |  Simin Fan              |
+| **Week 5**  | 20 Mar  |  Assignment 2 Q&A        |  Simin Fan              |
+| **Week 5**  | 21 Mar  |  Pretraining and Transfer Learning Pt. 1 review <br />Transfer Learning Pt. 2        |  Simin Fan              |
 |             |         |                                                                                       |                                                                     |
-| **Week 6**  | 28 Mar  |  Transfer Learning Pt. 2 review <br />Text Generation <br /> Assignment 2 Q&A    |  Simin Fan <br />Deniz Bayazit           |
+| **Week 6**  | 28 Mar  |  Assignment 2 Q&A    |  Simin Fan    |
+| **Week 6**  | 28 Mar  |  Transfer Learning Pt. 2 review <br />Text Generation    |  Simin Fan <br />Deniz Bayazit           |
 |             |         |                                                                                       |                                                                     |
-| **Week 8**  | 4 Apr  |  ***EASTER BREAK***                                                                   |                                                                     |  
+|  |   |  ***EASTER BREAK***                                                                   |                                                                     |  
 |             |         |                                                                                       |                                                                     |
-| **Week 7**  |  11 Apr  |  Text Generation review <br />In-context Learning   <br /> Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada  |
+| **Week 7**  |  10 Apr  |  Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit  |
+| **Week 7**  |  11 Apr  |  Text Generation review <br />In-context Learning                  |  Deniz Bayazit <br /> Mete Ismayilzada  |
 |             |         |                                                                                       |                                                                     |
-| **Week 9**  | 18 Apr  |  In-context Learning review <br /> Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada |
+| **Week 8**  | 17 Apr  | Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada |
+| **Week 8**  | 18 Apr  |  In-context Learning review                  | Mete Ismayilzada |
 |             |         |                                                                                       |                                                                     |
-| **Week 10** | 25 Apr  |  Project                                                               |  TA meetings on-demand                              |
+| **Week 9** | 24 & 25 Apr  |  Project                                                               |  TA meetings on-demand                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 11** |  2 May  |  Project                                                                             |  TA meetings on-demand                                              |
+| **Week 10** |  1 & 2 May  |  Project                                                                             |  TA meetings on-demand                                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 12** | 9 May  |  Project  <br /> Milestone 1 Feedback                                                |  TA meetings on-demand                              |
+| **Week 11** | 8 & 9 May  |  Project  <br /> Milestone 1 Feedback                                                |  TA meetings on-demand                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 13** | 16 May  |  Project                                                                              |  TA meetings on-demand                                              |
+| **Week 12** | 15 & 16 May  |  Project                                                                              |  TA meetings on-demand                                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 14** | 23 May  |  Project                                                 |  TA meetings on-demand                          |
+| **Week 13** | 22 May  |  A3 Grade Review Session                                                 |  Badr AlKhamissi <br /> Deniz Bayazit                           |
 |             |         |                                                                                       |                                                                     |
-| **Week 15** | 30 May   |  Project <br /> Milestone 2 Feedback                                                                             |  TA meetings on-demand                                              |
+| **Week 13** | 23 May  |  Project                                                 |  TA meetings on-demand                          |
+|             |         |                                                                                       |                                                                     |
+| **Week 14** | 30 May   |  Project <br /> Milestone 2 Feedback                                                                             |  TA meetings on-demand                                              |
 
 
 ### Exercises Session format:
@@ -107,33 +115,39 @@ _**Note**: Please make sure you have already done the setup prerequisites to run
 
 <a name="evaluation"></a>
 ## Grading:
-Your grade in the course will be computed according to the following guidelines:
+Your grade in the course will be computed according to the following guidelines.
+
+### Submission Format
+Assignment and project release annoucements will be on Ed. Your work will be submitted as a repository created by [GitHub classroom](https://classroom.github.com/). Clicking the assignment link (announced on its release date) will automatically create a repository under your username (ensure it matches the one on the CS-552 GitHub registration form). Your last push to the repository will be considered as your final submission, with its timestamp determining any late days (see below for the policy).
+
+All large files such as model checkpoints need to be pushed to the repository with [Git LFS](https://git-lfs.com/). Large files can take time to upload, therefore please avoid last-minute uploads that can create potential submission delays. We also propose to use [Colab](https://colab.research.google.com/) as a free GPU resource. You can find tutorials on all of these resources [here][0t].
+
+### Late Days Policy
+All assignments and milestones are due at 23:59 on their due date. As we understand that circumstances can make it challenging to abide by these due dates, you will receive 6 late days over the course of the semester to be allocated to the assignments and project milestones as you see fit. No further extensions will be granted. The only exception to this rule is for the final report, code, and data. No extensions will be granted beyond June 14th.
 
 ### Assignments (40%):
 There will be three assignments throughout the course. They will be released and due according to the following schedule:
 
 #### Assignment 1 (10%)
 <!-- Link for the assignment [here][1a]. -->
-- Released: 26 February 2024
+- Released: 28 February 2024
 - Due: 17 March 2024
 - Grade released: 14 April 2024
 - Grade review sessions: 18 and 25 April 2024
 
 #### Assignment 2 (15%)
 <!-- Link for the assignment [here][2a]. -->
-- Released: 18 March 2024
+- Released: 20 March 2024
 - Due: 7 April 2024
 - Grade released: 5 May 2024
 - Grade review sessions: 9 and 16 May 2024
 
 #### Assignment 3 (15%)
 <!-- Link for the assignment [here][3a]. -->
-- Released: 1 April 2024
+- Released: 3 April 2024
 - Due: 21 April 2024
 - Grade released: 19 May 2024
 - Grade review sessions: 29 and 30 May 2024
-
-Assignment releases will be announced on Ed.
 
 ### Project (60%):
 The project will be divided into 2 milestones and a final submission. Each milestone will be worth 15% of the final grade with the remaining 30% being allocated to the final report. Each team will be supervised by one of the course TAs or AEs. 
@@ -154,9 +168,6 @@ More details on the content of the project and the deliverables of each mileston
 <!-- - More details can be found in the [project description][2p]. -->
 - Due: 14 June 2024
 
-### Late Days Policy
-All assignments and milestones are due at 23:59 on their due date. As we understand that circumstances can make it challenging to abide by these due dates, you will receive 6 late days over the course of the semester to be allocated to the assignments and project milestones as you see fit. No further extensions will be granted. The only exception to this rule is for the final report, code, and data. No extensions will be granted beyond June 14th.
-
 
 <a name="contact"></a>
 ## Contacts
@@ -169,7 +180,7 @@ Please contact us for any organizational questions or questions related to the c
 
 
 [1s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%201
-<!-- [2s]: -->
+[2s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%202
 <!-- [3s]: -->
 <!-- [4s]: -->
 <!-- [5s]: -->
@@ -183,9 +194,11 @@ Please contact us for any organizational questions or questions related to the c
 <!-- [13s]: -->
 <!-- [14s]: -->
 
+
+[0t]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/tutorials.md
 [0e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Setup
 [1e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%201%20-%20Word%20Embeddings
-<!-- [2e]: -->
+[2e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%202%20-%20N-gram%20%26%20Neural%20Language%20Models
 <!-- [3e]: -->
 <!-- [4e]: -->
 <!-- [5e]: -->
